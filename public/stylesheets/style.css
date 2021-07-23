@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tourney:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header, .image, footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  background-image: url("../img/bg.jpg");
+  height: 15vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1vh 4vw;
+  color: #fff;
+  -webkit-box-shadow: 0px 5px 5px #353535;
+          box-shadow: 0px 5px 5px #353535;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.titleBox {
+  text-align: center;
+  -webkit-box-shadow: 5px 5px 5px #353535;
+          box-shadow: 5px 5px 5px #353535;
+  padding-top: 6vh;
+  padding-bottom: 2vh;
+  font-family: 'Tourney', cursive;
+}
+
+.image {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.explain {
+  -webkit-box-shadow: -5px -5px 5px #353535;
+          box-shadow: -5px -5px 5px #353535;
+  padding: 3vh 3vw;
+  font-family: 'Quicksand', sans-serif;
+  background-color: black;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+footer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #000;
+  height: 10vh;
+  color: #fff;
+}
+
+footer a {
+  color: #f95700ff;
+  text-decoration: none;
+}
+
+footer .fa-heart {
+  color: #f95700ff;
+}
+
+@media all and (max-width: 1000px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+  #date {
+    font-size: 1rem;
+    border: 2px solid #fff;
+    padding: 2vh 2vw;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

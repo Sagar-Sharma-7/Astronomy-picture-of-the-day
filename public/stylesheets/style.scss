@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, .image, footer{
+  display: flex;
+  align-items: center;
+}
+
+header{
+  background-image: url("../img/bg.jpg");
+  height: 15vh;
+  justify-content: space-between;
+  padding: 1vh 4vw;
+  color: #fff;
+  box-shadow: 0px 5px 5px rgb(53, 53, 53);
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.titleBox{
+  text-align: center;
+  box-shadow: 5px 5px 5px rgb(53, 53, 53);
+  padding-top: 6vh;
+  padding-bottom: 2vh;
+  font-family: 'Tourney', cursive;
+}
+
+.image{
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.explain{
+  box-shadow: -5px -5px 5px rgb(53, 53, 53);
+  padding:3vh 3vw;
+  font-family: 'Quicksand', sans-serif;
+  background-color: black;
+  color: #fff;
+  font-size: 1.2rem;
+} 
+
+footer {
+  justify-content: center;
+  flex-direction: column;
+  background: #000;
+  height: 10vh;
+  color: #fff;
+}
+
+footer{
+  a{
+    color: #f95700ff;
+    text-decoration: none;
+  }
+
+  .fa-heart {
+    color: #f95700ff;
+  }
+}
+
+@media all and (max-width:1000px){
+  h1{
+    font-size: 1.2rem;
+  }
+  #date{
+    font-size: 1rem;
+    border: 2px solid #fff;
+    padding: 2vh 2vw;
+    text-align: center;
+  }
+  img{
+    width: 100%;
+  }
+}
